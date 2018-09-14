@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390FD4E3214B5F06006B5E0A /* LDSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FD4E0214B5F05006B5E0A /* LDSegmentView.m */; };
+		390FD4E4214B5F06006B5E0A /* LDSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FD4E1214B5F05006B5E0A /* LDSegmentViewController.m */; };
+		FC0282F01F62594E00F10C78 /* PSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0282EF1F62594E00F10C78 /* PSTableViewController.m */; };
+		FC0282F51F625D5A00F10C78 /* PSHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0282F41F625D5A00F10C78 /* PSHeadView.m */; };
+		FC0282F71F625D9100F10C78 /* PSHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0282F61F625D9100F10C78 /* PSHeadView.xib */; };
+		FC0282FA1F62BEA300F10C78 /* PSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0282F91F62BEA300F10C78 /* PSSearchBar.m */; };
+		FC0283001F63D2BD00F10C78 /* FoodsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0282FE1F63D2BC00F10C78 /* FoodsViewCell.m */; };
+		FC0283011F63D2BD00F10C78 /* FoodsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0282FF1F63D2BC00F10C78 /* FoodsViewCell.xib */; };
+		FC0283041F63E97600F10C78 /* PSFoods2.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0283031F63E97600F10C78 /* PSFoods2.m */; };
+		FC069B591F5D87F30035C81D /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC069B581F5D87F30035C81D /* foods.plist */; };
+		FC069B5D1F5D88740035C81D /* PSFoods.m in Sources */ = {isa = PBXBuildFile; fileRef = FC069B5C1F5D88740035C81D /* PSFoods.m */; };
+		FC069B661F5ED5BA0035C81D /* cityfood.m in Sources */ = {isa = PBXBuildFile; fileRef = FC069B651F5ED5BA0035C81D /* cityfood.m */; };
+		FC0FB1EA1F67801E0095FD35 /* PSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB1E91F67801E0095FD35 /* PSPageViewController.m */; };
+		FC0FB1F41F6781930095FD35 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FB1F21F6781930095FD35 /* ContentViewController.m */; };
+		FC0FB1F91F679D090095FD35 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F51F679C2C0095FD35 /* AssetsLibrary.framework */; };
+		FC0FB1FA1F679D570095FD35 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1F71F679C360095FD35 /* Accelerate.framework */; };
+		FC108E901F70D99F001BAC29 /* PSRockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC108E8F1F70D99F001BAC29 /* PSRockViewController.m */; };
+		FC108E9A1F70E008001BAC29 /* PSRockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC108E991F70E008001BAC29 /* PSRockCell.m */; };
+		FC108E9C1F70E02F001BAC29 /* PSRockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC108E9B1F70E02F001BAC29 /* PSRockCell.xib */; };
+		FC108E9F1F70FDF8001BAC29 /* PStext.m in Sources */ = {isa = PBXBuildFile; fileRef = FC108E9E1F70FDF8001BAC29 /* PStext.m */; };
+		FC76585C1F6A69F8005343F0 /* PSCultureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76585B1F6A69F8005343F0 /* PSCultureView.m */; };
+		FC76585E1F6A6A44005343F0 /* PSCultureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC76585D1F6A6A44005343F0 /* PSCultureView.xib */; };
+		FC7658611F6A6D38005343F0 /* PSDoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7658601F6A6D38005343F0 /* PSDoView.m */; };
+		FC7658631F6A6D62005343F0 /* PSDoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7658621F6A6D62005343F0 /* PSDoView.xib */; };
+		FC76A1DA1F1F461200AEF22C /* PSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76A1D91F1F461200AEF22C /* PSMineController.m */; };
+		FC76A1DF1F1F46E800AEF22C /* PSIconBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76A1DE1F1F46E800AEF22C /* PSIconBtn.m */; };
+		FC76A1E31F21966900AEF22C /* PSPubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76A1E21F21966900AEF22C /* PSPubButton.m */; };
+		FC76A1EB1F230DF400AEF22C /* PSLocController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76A1EA1F230DF400AEF22C /* PSLocController.m */; };
+		FC76A1EF1F2313F300AEF22C /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC76A1EE1F2313F300AEF22C /* citydict.plist */; };
+		FC76A1F11F2313FA00AEF22C /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC76A1F01F2313FA00AEF22C /* ProvincesAndCities.plist */; };
+		FC76A1F41F2344CE00AEF22C /* PSPubWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76A1F31F2344CE00AEF22C /* PSPubWordViewController.m */; };
+		FC9082A61F6AA780003B2FB0 /* PSStoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9082A51F6AA780003B2FB0 /* PSStoreView.m */; };
+		FC9082A81F6AA793003B2FB0 /* PSStoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9082A71F6AA793003B2FB0 /* PSStoreView.xib */; };
+		FC9082AB1F6B9B81003B2FB0 /* PSCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9082AA1F6B9B81003B2FB0 /* PSCellView.m */; };
+		FC9606051F67D02E009B68E9 /* CityFoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC9606041F67D02E009B68E9 /* CityFoods.plist */; };
+		FC96060C1F6809D4009B68E9 /* PSCellContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96060B1F6809D4009B68E9 /* PSCellContentController.m */; };
+		FCAF86101F1B4D6E00FBEB83 /* UISearchBar+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF860F1F1B4D6E00FBEB83 /* UISearchBar+PS.m */; };
+		FCAF861A1F1C97FA00FBEB83 /* PSPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF86191F1C97FA00FBEB83 /* PSPublishController.m */; };
+		FCC13C9D1EFE317800B416EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC13C9C1EFE317800B416EE /* main.m */; };
+		FCC13CA01EFE317800B416EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC13C9F1EFE317800B416EE /* AppDelegate.m */; };
+		FCC13CA31EFE317800B416EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC13CA21EFE317800B416EE /* ViewController.m */; };
+		FCC13CA61EFE317800B416EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC13CA41EFE317800B416EE /* Main.storyboard */; };
+		FCC13CA81EFE317800B416EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC13CA71EFE317800B416EE /* Assets.xcassets */; };
+		FCC13CB61EFE317800B416EE /* FoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC13CB51EFE317800B416EE /* FoodTests.m */; };
+		FCC13CC11EFE317800B416EE /* FoodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC13CC01EFE317800B416EE /* FoodUITests.m */; };
+		FCF042051EFF59C9004DE633 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF042041EFF59C9004DE633 /* search.png */; };
+		FCF042111F025AF8004DE633 /* PSTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF042101F025AF8004DE633 /* PSTabbar.m */; };
+		FCF042141F025D4A004DE633 /* PSTabbarcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF042131F025D4A004DE633 /* PSTabbarcontroller.m */; };
+		FCF042171F04E7DC004DE633 /* PSTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF042161F04E7DC004DE633 /* PSTabbarButton.m */; };
+		FCFE00521F3D5A2C000D5970 /* PSPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFE00511F3D5A2C000D5970 /* PSPopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC13CB21EFE317800B416EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC13C901EFE317700B416EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC13C971EFE317700B416EE;
+			remoteInfo = Food;
+		};
+		FCC13CBD1EFE317800B416EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC13C901EFE317700B416EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC13C971EFE317700B416EE;
+			remoteInfo = Food;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390FD4DF214B5F05006B5E0A /* LDSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSegmentView.h; sourceTree = "<group>"; };
+		390FD4E0214B5F05006B5E0A /* LDSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSegmentView.m; sourceTree = "<group>"; };
+		390FD4E1214B5F05006B5E0A /* LDSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSegmentViewController.m; sourceTree = "<group>"; };
+		390FD4E2214B5F05006B5E0A /* LDSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSegmentViewController.h; sourceTree = "<group>"; };
+		FC0282EE1F62594E00F10C78 /* PSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTableViewController.h; sourceTree = "<group>"; };
+		FC0282EF1F62594E00F10C78 /* PSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTableViewController.m; sourceTree = "<group>"; };
+		FC0282F31F625D5A00F10C78 /* PSHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSHeadView.h; sourceTree = "<group>"; };
+		FC0282F41F625D5A00F10C78 /* PSHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHeadView.m; sourceTree = "<group>"; };
+		FC0282F61F625D9100F10C78 /* PSHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSHeadView.xib; sourceTree = "<group>"; };
+		FC0282F81F62BEA300F10C78 /* PSSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSSearchBar.h; sourceTree = "<group>"; };
+		FC0282F91F62BEA300F10C78 /* PSSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSSearchBar.m; sourceTree = "<group>"; };
+		FC0282FD1F63D2BC00F10C78 /* FoodsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodsViewCell.h; sourceTree = "<group>"; };
+		FC0282FE1F63D2BC00F10C78 /* FoodsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodsViewCell.m; sourceTree = "<group>"; };
+		FC0282FF1F63D2BC00F10C78 /* FoodsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodsViewCell.xib; sourceTree = "<group>"; };
+		FC0283021F63E97600F10C78 /* PSFoods2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSFoods2.h; sourceTree = "<group>"; };
+		FC0283031F63E97600F10C78 /* PSFoods2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFoods2.m; sourceTree = "<group>"; };
+		FC069B581F5D87F30035C81D /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		FC069B5B1F5D88740035C81D /* PSFoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFoods.h; sourceTree = "<group>"; };
+		FC069B5C1F5D88740035C81D /* PSFoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFoods.m; sourceTree = "<group>"; };
+		FC069B641F5ED5BA0035C81D /* cityfood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityfood.h; sourceTree = "<group>"; };
+		FC069B651F5ED5BA0035C81D /* cityfood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityfood.m; sourceTree = "<group>"; };
+		FC0FB1E81F67801E0095FD35 /* PSPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPageViewController.h; sourceTree = "<group>"; };
+		FC0FB1E91F67801E0095FD35 /* PSPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPageViewController.m; sourceTree = "<group>"; };
+		FC0FB1F21F6781930095FD35 /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		FC0FB1F31F6781930095FD35 /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		FC0FB1F51F679C2C0095FD35 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FC0FB1F71F679C360095FD35 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FC108E8E1F70D99F001BAC29 /* PSRockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSRockViewController.h; sourceTree = "<group>"; };
+		FC108E8F1F70D99F001BAC29 /* PSRockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSRockViewController.m; sourceTree = "<group>"; };
+		FC108E981F70E008001BAC29 /* PSRockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSRockCell.h; sourceTree = "<group>"; };
+		FC108E991F70E008001BAC29 /* PSRockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSRockCell.m; sourceTree = "<group>"; };
+		FC108E9B1F70E02F001BAC29 /* PSRockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSRockCell.xib; sourceTree = "<group>"; };
+		FC108E9D1F70FDF8001BAC29 /* PStext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStext.h; sourceTree = "<group>"; };
+		FC108E9E1F70FDF8001BAC29 /* PStext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PStext.m; sourceTree = "<group>"; };
+		FC76585A1F6A69F8005343F0 /* PSCultureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCultureView.h; sourceTree = "<group>"; };
+		FC76585B1F6A69F8005343F0 /* PSCultureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCultureView.m; sourceTree = "<group>"; };
+		FC76585D1F6A6A44005343F0 /* PSCultureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSCultureView.xib; sourceTree = "<group>"; };
+		FC76585F1F6A6D38005343F0 /* PSDoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSDoView.h; sourceTree = "<group>"; };
+		FC7658601F6A6D38005343F0 /* PSDoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSDoView.m; sourceTree = "<group>"; };
+		FC7658621F6A6D62005343F0 /* PSDoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSDoView.xib; sourceTree = "<group>"; };
+		FC76A1D81F1F461200AEF22C /* PSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMineController.h; sourceTree = "<group>"; };
+		FC76A1D91F1F461200AEF22C /* PSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMineController.m; sourceTree = "<group>"; };
+		FC76A1DD1F1F46E800AEF22C /* PSIconBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSIconBtn.h; sourceTree = "<group>"; };
+		FC76A1DE1F1F46E800AEF22C /* PSIconBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSIconBtn.m; sourceTree = "<group>"; };
+		FC76A1E11F21966900AEF22C /* PSPubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPubButton.h; sourceTree = "<group>"; };
+		FC76A1E21F21966900AEF22C /* PSPubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPubButton.m; sourceTree = "<group>"; };
+		FC76A1E91F230DF400AEF22C /* PSLocController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocController.h; sourceTree = "<group>"; };
+		FC76A1EA1F230DF400AEF22C /* PSLocController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocController.m; sourceTree = "<group>"; };
+		FC76A1EE1F2313F300AEF22C /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		FC76A1F01F2313FA00AEF22C /* ProvincesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesAndCities.plist; sourceTree = "<group>"; };
+		FC76A1F21F2344CE00AEF22C /* PSPubWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPubWordViewController.h; sourceTree = "<group>"; };
+		FC76A1F31F2344CE00AEF22C /* PSPubWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPubWordViewController.m; sourceTree = "<group>"; };
+		FC9082A41F6AA780003B2FB0 /* PSStoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSStoreView.h; sourceTree = "<group>"; };
+		FC9082A51F6AA780003B2FB0 /* PSStoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSStoreView.m; sourceTree = "<group>"; };
+		FC9082A71F6AA793003B2FB0 /* PSStoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSStoreView.xib; sourceTree = "<group>"; };
+		FC9082A91F6B9B81003B2FB0 /* PSCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCellView.h; sourceTree = "<group>"; };
+		FC9082AA1F6B9B81003B2FB0 /* PSCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCellView.m; sourceTree = "<group>"; };
+		FC9606041F67D02E009B68E9 /* CityFoods.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CityFoods.plist; sourceTree = "<group>"; };
+		FC96060A1F6809D4009B68E9 /* PSCellContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCellContentController.h; sourceTree = "<group>"; };
+		FC96060B1F6809D4009B68E9 /* PSCellContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCellContentController.m; sourceTree = "<group>"; };
+		FCA336DA1F29C1B100F44104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCAF860E1F1B4D6E00FBEB83 /* UISearchBar+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+PS.h"; sourceTree = "<group>"; };
+		FCAF860F1F1B4D6E00FBEB83 /* UISearchBar+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+PS.m"; sourceTree = "<group>"; };
+		FCAF86181F1C97FA00FBEB83 /* PSPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPublishController.h; sourceTree = "<group>"; };
+		FCAF86191F1C97FA00FBEB83 /* PSPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPublishController.m; sourceTree = "<group>"; };
+		FCC13C981EFE317800B416EE /* Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC13C9C1EFE317800B416EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC13C9E1EFE317800B416EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC13C9F1EFE317800B416EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC13CA11EFE317800B416EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCC13CA21EFE317800B416EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC13CA51EFE317800B416EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC13CA71EFE317800B416EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC13CAC1EFE317800B416EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC13CB11EFE317800B416EE /* FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC13CB51EFE317800B416EE /* FoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTests.m; sourceTree = "<group>"; };
+		FCC13CB71EFE317800B416EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC13CBC1EFE317800B416EE /* FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC13CC01EFE317800B416EE /* FoodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodUITests.m; sourceTree = "<group>"; };
+		FCC13CC21EFE317800B416EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF042041EFF59C9004DE633 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		FCF0420F1F025AF8004DE633 /* PSTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTabbar.h; sourceTree = "<group>"; };
+		FCF042101F025AF8004DE633 /* PSTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTabbar.m; sourceTree = "<group>"; };
+		FCF042121F025D4A004DE633 /* PSTabbarcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTabbarcontroller.h; sourceTree = "<group>"; };
+		FCF042131F025D4A004DE633 /* PSTabbarcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTabbarcontroller.m; sourceTree = "<group>"; };
+		FCF042151F04E7DC004DE633 /* PSTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTabbarButton.h; sourceTree = "<group>"; };
+		FCF042161F04E7DC004DE633 /* PSTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTabbarButton.m; sourceTree = "<group>"; };
+		FCFE00501F3D5A2C000D5970 /* PSPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPopViewController.h; sourceTree = "<group>"; };
+		FCFE00511F3D5A2C000D5970 /* PSPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPopViewController.m; sourceTree = "<group>"; };
+		FCFEC6171F29B858003E8330 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC13C951EFE317700B416EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CAE1EFE317800B416EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FB1FA1F679D570095FD35 /* Accelerate.framework in Frameworks */,
+				FC0FB1F91F679D090095FD35 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CB91EFE317800B416EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390FD4DD214B5F05006B5E0A /* LZSegmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				390FD4DE214B5F05006B5E0A /* LDSegmentView */,
+				390FD4E1214B5F05006B5E0A /* LDSegmentViewController.m */,
+				390FD4E2214B5F05006B5E0A /* LDSegmentViewController.h */,
+			);
+			name = LZSegmentViewController;
+			path = "../../../../Downloads/LQSegmentViewController-master/UIPageViewController-OC/UIPageViewController-OC/LZSegmentViewController";
+			sourceTree = "<group>";
+		};
+		390FD4DE214B5F05006B5E0A /* LDSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				390FD4DF214B5F05006B5E0A /* LDSegmentView.h */,
+				390FD4E0214B5F05006B5E0A /* LDSegmentView.m */,
+			);
+			path = LDSegmentView;
+			sourceTree = "<group>";
+		};
+		FC069B4E1F5D785F0035C81D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC0282F31F625D5A00F10C78 /* PSHeadView.h */,
+				FC0282F41F625D5A00F10C78 /* PSHeadView.m */,
+				FC0282F61F625D9100F10C78 /* PSHeadView.xib */,
+				FC0282F81F62BEA300F10C78 /* PSSearchBar.h */,
+				FC0282F91F62BEA300F10C78 /* PSSearchBar.m */,
+				FC0282FD1F63D2BC00F10C78 /* FoodsViewCell.h */,
+				FC0282FE1F63D2BC00F10C78 /* FoodsViewCell.m */,
+				FC0282FF1F63D2BC00F10C78 /* FoodsViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FC069B5A1F5D88160035C81D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC069B5B1F5D88740035C81D /* PSFoods.h */,
+				FC069B5C1F5D88740035C81D /* PSFoods.m */,
+				FC069B641F5ED5BA0035C81D /* cityfood.h */,
+				FC069B651F5ED5BA0035C81D /* cityfood.m */,
+				FC0283021F63E97600F10C78 /* PSFoods2.h */,
+				FC0283031F63E97600F10C78 /* PSFoods2.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FC0FB1EB1F6780420095FD35 /* travelRoute */ = {
+			isa = PBXGroup;
+			children = (
+				390FD4DD214B5F05006B5E0A /* LZSegmentViewController */,
+				FC0FB1F31F6781930095FD35 /* ContentViewController.h */,
+				FC0FB1F21F6781930095FD35 /* ContentViewController.m */,
+				FC0FB1E81F67801E0095FD35 /* PSPageViewController.h */,
+				FC0FB1E91F67801E0095FD35 /* PSPageViewController.m */,
+			);
+			name = travelRoute;
+			sourceTree = "<group>";
+		};
+		FC76A1D61F1F45E500AEF22C /* Me（我的） */ = {
+			isa = PBXGroup;
+			children = (
+				FC76A1E01F1F48C000AEF22C /* model */,
+				FC76A1DB1F1F46C100AEF22C /* view */,
+				FC76A1D71F1F45EE00AEF22C /* controller */,
+			);
+			name = "Me（我的）";
+			sourceTree = "<group>";
+		};
+		FC76A1D71F1F45EE00AEF22C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC76A1D81F1F461200AEF22C /* PSMineController.h */,
+				FC76A1D91F1F461200AEF22C /* PSMineController.m */,
+				FCFE00501F3D5A2C000D5970 /* PSPopViewController.h */,
+				FCFE00511F3D5A2C000D5970 /* PSPopViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FC76A1DB1F1F46C100AEF22C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC76A1DD1F1F46E800AEF22C /* PSIconBtn.h */,
+				FC76A1DE1F1F46E800AEF22C /* PSIconBtn.m */,
+				FC108E981F70E008001BAC29 /* PSRockCell.h */,
+				FC108E991F70E008001BAC29 /* PSRockCell.m */,
+				FC108E9B1F70E02F001BAC29 /* PSRockCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FC76A1E01F1F48C000AEF22C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FC108E9D1F70FDF8001BAC29 /* PStext.h */,
+				FC108E9E1F70FDF8001BAC29 /* PStext.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC76A1E81F230DB400AEF22C /* location */ = {
+			isa = PBXGroup;
+			children = (
+				FC76A1E91F230DF400AEF22C /* PSLocController.h */,
+				FC76A1EA1F230DF400AEF22C /* PSLocController.m */,
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		FC9606061F6808E3009B68E9 /* specificCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCC1648A1F6936A50089EBD7 /* controller */,
+				FCC164891F6936970089EBD7 /* view */,
+			);
+			name = specificCell;
+			sourceTree = "<group>";
+		};
+		FCAF86011F1B410500FBEB83 /* Main（tab） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0420B1F025A05004DE633 /* model */,
+				FCF042091F0259EC004DE633 /* controller */,
+				FCF0420A1F0259FE004DE633 /* view */,
+			);
+			name = "Main（tab）";
+			sourceTree = "<group>";
+		};
+		FCAF86021F1B413000FBEB83 /* Myhome（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				FC069B5A1F5D88160035C81D /* Model */,
+				FCAF860A1F1B4C1000FBEB83 /* tool */,
+				FC069B4E1F5D785F0035C81D /* View */,
+				FCAF86031F1B415600FBEB83 /* Controller */,
+			);
+			name = "Myhome（首页）";
+			sourceTree = "<group>";
+		};
+		FCAF86031F1B415600FBEB83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC0282EE1F62594E00F10C78 /* PSTableViewController.h */,
+				FC0282EF1F62594E00F10C78 /* PSTableViewController.m */,
+				FC0FB1EB1F6780420095FD35 /* travelRoute */,
+				FC9606061F6808E3009B68E9 /* specificCell */,
+				FC76A1E81F230DB400AEF22C /* location */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FCAF860A1F1B4C1000FBEB83 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF860E1F1B4D6E00FBEB83 /* UISearchBar+PS.h */,
+				FCAF860F1F1B4D6E00FBEB83 /* UISearchBar+PS.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		FCAF86111F1C735C00FBEB83 /* Publish（发布） */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF86171F1C96B500FBEB83 /* Model */,
+				FCAF86161F1C96A900FBEB83 /* View */,
+				FCAF86151F1C969D00FBEB83 /* Controller */,
+			);
+			name = "Publish（发布）";
+			sourceTree = "<group>";
+		};
+		FCAF86151F1C969D00FBEB83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF86181F1C97FA00FBEB83 /* PSPublishController.h */,
+				FCAF86191F1C97FA00FBEB83 /* PSPublishController.m */,
+				FC76A1F21F2344CE00AEF22C /* PSPubWordViewController.h */,
+				FC76A1F31F2344CE00AEF22C /* PSPubWordViewController.m */,
+				FC108E8E1F70D99F001BAC29 /* PSRockViewController.h */,
+				FC108E8F1F70D99F001BAC29 /* PSRockViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FCAF86161F1C96A900FBEB83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC76A1E11F21966900AEF22C /* PSPubButton.h */,
+				FC76A1E21F21966900AEF22C /* PSPubButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FCAF86171F1C96B500FBEB83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCC13C8F1EFE317700B416EE = {
+			isa = PBXGroup;
+			children = (
+				FCC13C9A1EFE317800B416EE /* Food */,
+				FCC13CB41EFE317800B416EE /* FoodTests */,
+				FCC13CBF1EFE317800B416EE /* FoodUITests */,
+				FCC13C991EFE317800B416EE /* Products */,
+				FCFEC6161F29B858003E8330 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC13C991EFE317800B416EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC13C981EFE317800B416EE /* Food.app */,
+				FCC13CB11EFE317800B416EE /* FoodTests.xctest */,
+				FCC13CBC1EFE317800B416EE /* FoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC13C9A1EFE317800B416EE /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				FCF042071F0259DC004DE633 /* other */,
+				FCF042061F0259B4004DE633 /* classes */,
+				FCC13C9B1EFE317800B416EE /* Supporting Files */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		FCC13C9B1EFE317800B416EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC069B581F5D87F30035C81D /* foods.plist */,
+				FC76A1EE1F2313F300AEF22C /* citydict.plist */,
+				FC76A1F01F2313FA00AEF22C /* ProvincesAndCities.plist */,
+				FCC13CA41EFE317800B416EE /* Main.storyboard */,
+				FCC13CA71EFE317800B416EE /* Assets.xcassets */,
+				FCC13CAC1EFE317800B416EE /* Info.plist */,
+				FCF042031EFF59C9004DE633 /* icon */,
+				FCC13C9C1EFE317800B416EE /* main.m */,
+				FC9606041F67D02E009B68E9 /* CityFoods.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC13CB41EFE317800B416EE /* FoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC13CB51EFE317800B416EE /* FoodTests.m */,
+				FCC13CB71EFE317800B416EE /* Info.plist */,
+			);
+			path = FoodTests;
+			sourceTree = "<group>";
+		};
+		FCC13CBF1EFE317800B416EE /* FoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC13CC01EFE317800B416EE /* FoodUITests.m */,
+				FCC13CC21EFE317800B416EE /* Info.plist */,
+			);
+			path = FoodUITests;
+			sourceTree = "<group>";
+		};
+		FCC164891F6936970089EBD7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC76585A1F6A69F8005343F0 /* PSCultureView.h */,
+				FC76585B1F6A69F8005343F0 /* PSCultureView.m */,
+				FC76585D1F6A6A44005343F0 /* PSCultureView.xib */,
+				FC76585F1F6A6D38005343F0 /* PSDoView.h */,
+				FC7658601F6A6D38005343F0 /* PSDoView.m */,
+				FC7658621F6A6D62005343F0 /* PSDoView.xib */,
+				FC9082A41F6AA780003B2FB0 /* PSStoreView.h */,
+				FC9082A51F6AA780003B2FB0 /* PSStoreView.m */,
+				FC9082A71F6AA793003B2FB0 /* PSStoreView.xib */,
+				FC9082A91F6B9B81003B2FB0 /* PSCellView.h */,
+				FC9082AA1F6B9B81003B2FB0 /* PSCellView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FCC1648A1F6936A50089EBD7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC96060A1F6809D4009B68E9 /* PSCellContentController.h */,
+				FC96060B1F6809D4009B68E9 /* PSCellContentController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FCF042031EFF59C9004DE633 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				FCF042041EFF59C9004DE633 /* search.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		FCF042061F0259B4004DE633 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF86021F1B413000FBEB83 /* Myhome（首页） */,
+				FC76A1D61F1F45E500AEF22C /* Me（我的） */,
+				FCAF86111F1C735C00FBEB83 /* Publish（发布） */,
+				FCAF86011F1B410500FBEB83 /* Main（tab） */,
+				FCF042081F0259E5004DE633 /* other */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		FCF042071F0259DC004DE633 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				FCC13C9E1EFE317800B416EE /* AppDelegate.h */,
+				FCC13C9F1EFE317800B416EE /* AppDelegate.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		FCF042081F0259E5004DE633 /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		FCF042091F0259EC004DE633 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC13CA11EFE317800B416EE /* ViewController.h */,
+				FCC13CA21EFE317800B416EE /* ViewController.m */,
+				FCF042121F025D4A004DE633 /* PSTabbarcontroller.h */,
+				FCF042131F025D4A004DE633 /* PSTabbarcontroller.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FCF0420A1F0259FE004DE633 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0420F1F025AF8004DE633 /* PSTabbar.h */,
+				FCF042101F025AF8004DE633 /* PSTabbar.m */,
+				FCF042151F04E7DC004DE633 /* PSTabbarButton.h */,
+				FCF042161F04E7DC004DE633 /* PSTabbarButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FCF0420B1F025A05004DE633 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FCFEC6161F29B858003E8330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FB1F71F679C360095FD35 /* Accelerate.framework */,
+				FC0FB1F51F679C2C0095FD35 /* AssetsLibrary.framework */,
+				FCA336DA1F29C1B100F44104 /* Foundation.framework */,
+				FCFEC6171F29B858003E8330 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC13C971EFE317700B416EE /* Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC13CC51EFE317800B416EE /* Build configuration list for PBXNativeTarget "Food" */;
+			buildPhases = (
+				FCC13C941EFE317700B416EE /* Sources */,
+				FCC13C951EFE317700B416EE /* Frameworks */,
+				FCC13C961EFE317700B416EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food;
+			productName = Food;
+			productReference = FCC13C981EFE317800B416EE /* Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC13CB01EFE317800B416EE /* FoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC13CC81EFE317800B416EE /* Build configuration list for PBXNativeTarget "FoodTests" */;
+			buildPhases = (
+				FCC13CAD1EFE317800B416EE /* Sources */,
+				FCC13CAE1EFE317800B416EE /* Frameworks */,
+				FCC13CAF1EFE317800B416EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC13CB31EFE317800B416EE /* PBXTargetDependency */,
+			);
+			name = FoodTests;
+			productName = FoodTests;
+			productReference = FCC13CB11EFE317800B416EE /* FoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC13CBB1EFE317800B416EE /* FoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC13CCB1EFE317800B416EE /* Build configuration list for PBXNativeTarget "FoodUITests" */;
+			buildPhases = (
+				FCC13CB81EFE317800B416EE /* Sources */,
+				FCC13CB91EFE317800B416EE /* Frameworks */,
+				FCC13CBA1EFE317800B416EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC13CBE1EFE317800B416EE /* PBXTargetDependency */,
+			);
+			name = FoodUITests;
+			productName = FoodUITests;
+			productReference = FCC13CBC1EFE317800B416EE /* FoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC13C901EFE317700B416EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sunny&pei";
+				TargetAttributes = {
+					FCC13C971EFE317700B416EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 947Y58Z74K;
+						ProvisioningStyle = Automatic;
+					};
+					FCC13CB01EFE317800B416EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 947Y58Z74K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC13C971EFE317700B416EE;
+					};
+					FCC13CBB1EFE317800B416EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 947Y58Z74K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC13C971EFE317700B416EE;
+					};
+				};
+			};
+			buildConfigurationList = FCC13C931EFE317700B416EE /* Build configuration list for PBXProject "Food" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC13C8F1EFE317700B416EE;
+			productRefGroup = FCC13C991EFE317800B416EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC13C971EFE317700B416EE /* Food */,
+				FCC13CB01EFE317800B416EE /* FoodTests */,
+				FCC13CBB1EFE317800B416EE /* FoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC13C961EFE317700B416EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7658631F6A6D62005343F0 /* PSDoView.xib in Resources */,
+				FC069B591F5D87F30035C81D /* foods.plist in Resources */,
+				FC108E9C1F70E02F001BAC29 /* PSRockCell.xib in Resources */,
+				FC0283011F63D2BD00F10C78 /* FoodsViewCell.xib in Resources */,
+				FC9082A81F6AA793003B2FB0 /* PSStoreView.xib in Resources */,
+				FC76585E1F6A6A44005343F0 /* PSCultureView.xib in Resources */,
+				FC76A1EF1F2313F300AEF22C /* citydict.plist in Resources */,
+				FCC13CA81EFE317800B416EE /* Assets.xcassets in Resources */,
+				FCC13CA61EFE317800B416EE /* Main.storyboard in Resources */,
+				FCF042051EFF59C9004DE633 /* search.png in Resources */,
+				FC9606051F67D02E009B68E9 /* CityFoods.plist in Resources */,
+				FC76A1F11F2313FA00AEF22C /* ProvincesAndCities.plist in Resources */,
+				FC0282F71F625D9100F10C78 /* PSHeadView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CAF1EFE317800B416EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CBA1EFE317800B416EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC13C941EFE317700B416EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC13CA31EFE317800B416EE /* ViewController.m in Sources */,
+				FCFE00521F3D5A2C000D5970 /* PSPopViewController.m in Sources */,
+				FC9082A61F6AA780003B2FB0 /* PSStoreView.m in Sources */,
+				FC0FB1EA1F67801E0095FD35 /* PSPageViewController.m in Sources */,
+				FCC13CA01EFE317800B416EE /* AppDelegate.m in Sources */,
+				FC7658611F6A6D38005343F0 /* PSDoView.m in Sources */,
+				390FD4E3214B5F06006B5E0A /* LDSegmentView.m in Sources */,
+				FC0283001F63D2BD00F10C78 /* FoodsViewCell.m in Sources */,
+				FC0283041F63E97600F10C78 /* PSFoods2.m in Sources */,
+				FC108E901F70D99F001BAC29 /* PSRockViewController.m in Sources */,
+				FC069B5D1F5D88740035C81D /* PSFoods.m in Sources */,
+				FC9082AB1F6B9B81003B2FB0 /* PSCellView.m in Sources */,
+				FCF042141F025D4A004DE633 /* PSTabbarcontroller.m in Sources */,
+				FCC13C9D1EFE317800B416EE /* main.m in Sources */,
+				FC76A1DF1F1F46E800AEF22C /* PSIconBtn.m in Sources */,
+				FC76585C1F6A69F8005343F0 /* PSCultureView.m in Sources */,
+				FC0282F51F625D5A00F10C78 /* PSHeadView.m in Sources */,
+				FC76A1EB1F230DF400AEF22C /* PSLocController.m in Sources */,
+				FC76A1F41F2344CE00AEF22C /* PSPubWordViewController.m in Sources */,
+				FC108E9A1F70E008001BAC29 /* PSRockCell.m in Sources */,
+				FC069B661F5ED5BA0035C81D /* cityfood.m in Sources */,
+				FC0282FA1F62BEA300F10C78 /* PSSearchBar.m in Sources */,
+				FCAF861A1F1C97FA00FBEB83 /* PSPublishController.m in Sources */,
+				FC0282F01F62594E00F10C78 /* PSTableViewController.m in Sources */,
+				FCF042171F04E7DC004DE633 /* PSTabbarButton.m in Sources */,
+				390FD4E4214B5F06006B5E0A /* LDSegmentViewController.m in Sources */,
+				FC96060C1F6809D4009B68E9 /* PSCellContentController.m in Sources */,
+				FC108E9F1F70FDF8001BAC29 /* PStext.m in Sources */,
+				FCF042111F025AF8004DE633 /* PSTabbar.m in Sources */,
+				FC0FB1F41F6781930095FD35 /* ContentViewController.m in Sources */,
+				FC76A1E31F21966900AEF22C /* PSPubButton.m in Sources */,
+				FCAF86101F1B4D6E00FBEB83 /* UISearchBar+PS.m in Sources */,
+				FC76A1DA1F1F461200AEF22C /* PSMineController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CAD1EFE317800B416EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC13CB61EFE317800B416EE /* FoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC13CB81EFE317800B416EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC13CC11EFE317800B416EE /* FoodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC13CB31EFE317800B416EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC13C971EFE317700B416EE /* Food */;
+			targetProxy = FCC13CB21EFE317800B416EE /* PBXContainerItemProxy */;
+		};
+		FCC13CBE1EFE317800B416EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC13C971EFE317700B416EE /* Food */;
+			targetProxy = FCC13CBD1EFE317800B416EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC13CA41EFE317800B416EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC13CA51EFE317800B416EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC13CC31EFE317800B416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCC13CC41EFE317800B416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC13CC61EFE317800B416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Food/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.Food;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCC13CC71EFE317800B416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Food/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.Food;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FCC13CC91EFE317800B416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = FoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.FoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food.app/Food";
+			};
+			name = Debug;
+		};
+		FCC13CCA1EFE317800B416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = FoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.FoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food.app/Food";
+			};
+			name = Release;
+		};
+		FCC13CCC1EFE317800B416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = FoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.FoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food;
+			};
+			name = Debug;
+		};
+		FCC13CCD1EFE317800B416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = FoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = p.lpz.FoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC13C931EFE317700B416EE /* Build configuration list for PBXProject "Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC13CC31EFE317800B416EE /* Debug */,
+				FCC13CC41EFE317800B416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC13CC51EFE317800B416EE /* Build configuration list for PBXNativeTarget "Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC13CC61EFE317800B416EE /* Debug */,
+				FCC13CC71EFE317800B416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC13CC81EFE317800B416EE /* Build configuration list for PBXNativeTarget "FoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC13CC91EFE317800B416EE /* Debug */,
+				FCC13CCA1EFE317800B416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC13CCB1EFE317800B416EE /* Build configuration list for PBXNativeTarget "FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC13CCC1EFE317800B416EE /* Debug */,
+				FCC13CCD1EFE317800B416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC13C901EFE317700B416EE /* Project object */;
+}

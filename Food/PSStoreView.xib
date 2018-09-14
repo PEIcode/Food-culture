@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PSStoreView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1010"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-HV-tf1">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1448"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cY-8A-Rai">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tgxj" translatesAutoresizingMaskIntoConstraints="NO" id="Ycn-rw-HHJ">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="唐宫小聚（水璟唐店）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrk-Sk-YRO">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="my6-s6-tnk">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="Z9r-Id-kjv">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="D3F-fg-mPk">
+                                    <rect key="frame" x="193" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="成都粤菜第2名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLj-6h-Abp">
+                                    <rect key="frame" x="135" y="93" width="105" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="兰桂坊      粤菜" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-Dm-Luw">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="G00-um-3rg">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="YDm-Z0-KQv">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="124" id="7Ka-bg-Wbs"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zwi-6v-XNI">
+                            <rect key="frame" x="0.0" y="132" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jmd" translatesAutoresizingMaskIntoConstraints="NO" id="G40-Do-p1w">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="鸡毛店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhv-Cu-T4m">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="eVm-sL-Rhd">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="kM3-nd-SQA">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="gxk-bD-K9H">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉林川菜第4名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbP-lC-Jzl">
+                                    <rect key="frame" x="135" y="93" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉林          川菜" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dan-CJ-ahp">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-uj-W7H">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="QTf-XO-Ocn">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="124" id="fkx-7T-zTX"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRN-uV-Qtp">
+                            <rect key="frame" x="0.0" y="528" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yjxc@1x" translatesAutoresizingMaskIntoConstraints="NO" id="FK9-c6-ziY">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遇见小厨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21f-0f-U2w">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="VTp-SX-gdZ">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="5Py-Mf-9fV">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="6vi-WJ-slB">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="高升桥川菜第4名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gh-t9-SgE">
+                                    <rect key="frame" x="135" y="93" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="骡马市       其他" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAh-MN-s2z">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="w6Y-lC-ISk">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="ynN-Xc-qo8">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="124" id="nvo-yd-3d6"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFv-z0-7mb">
+                            <rect key="frame" x="0.0" y="264" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ymt@1x" translatesAutoresizingMaskIntoConstraints="NO" id="6IS-ZH-paa">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="云梦庭·古法湘菜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQX-p2-fkA">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="W54-vf-VgR">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="dTT-N3-1V7">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="163人赞了" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zav-hq-sbT">
+                                    <rect key="frame" x="135" y="93" width="75" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="高新区       其他" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUX-U2-IfC">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="tVN-hB-ACW">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="vzN-oa-Sp4">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="22L-5H-K8e">
+                                    <rect key="frame" x="195" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="剁椒鱼头" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAL-I4-2hL">
+                                    <rect key="frame" x="212" y="93" width="63" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.92470186948776245" green="0.50013113021850586" blue="0.34904703497886658" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="124" id="kMq-Ax-5X8"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oRT-QC-yb0">
+                            <rect key="frame" x="0.0" y="396" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wpp@1x" translatesAutoresizingMaskIntoConstraints="NO" id="1oU-H4-b27">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="mai-qi-aCJ">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="63O-gv-f2y">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="3h3-J7-TIH">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="温江区川菜第1名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5d-QF-mr3">
+                                    <rect key="frame" x="135" y="93" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉林          川菜" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ked-If-edn">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="tko-py-aff">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="CsM-Rm-XSU">
+                                    <rect key="frame" x="214" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王婆婆大排档" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHt-KJ-LUo">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="124" id="CVo-Im-PW3"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-aV-PZM">
+                            <rect key="frame" x="0.0" y="660" width="414" height="124"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sdlj" translatesAutoresizingMaskIntoConstraints="NO" id="1YO-ea-8JU">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山东老家（成都）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddn-KC-JeH">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="bbx-hC-n3n">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="Awk-hz-lBK">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="DC9-Pm-iwb">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="骡马市       其他" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYs-Qi-TtK">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-EA-4dx">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="JxA-yQ-hNR">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="163人赞了" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qxu-XB-AEw">
+                                    <rect key="frame" x="134" y="93" width="75" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="剁椒鱼头" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-1R-zq0">
+                                    <rect key="frame" x="212" y="93" width="63" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.9247018695" green="0.5001311302" blue="0.34904703500000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZXN-Oy-Ebb">
+                            <rect key="frame" x="0.0" y="792" width="414" height="124"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drh" translatesAutoresizingMaskIntoConstraints="NO" id="3XC-KX-OSJ">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大蓉和酒楼（外双楠店）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuB-tZ-eUW">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="62U-IH-AE1">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="o0h-1B-FtP">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="9vz-Xu-4gz">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="骡马市       其他" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAO-kj-Cq6">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="vaF-J7-4vv">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="T8M-Or-gyX">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="高升桥川菜第4名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uId-pk-vlH">
+                                    <rect key="frame" x="135" y="93" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3RT-V4-9Jd">
+                            <rect key="frame" x="0.0" y="924" width="414" height="124"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cyyh" translatesAutoresizingMaskIntoConstraints="NO" id="H2G-Jt-B6P">
+                                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="川渝壹号新湘菜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvO-Tb-3gC">
+                                    <rect key="frame" x="135" y="10" width="199" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="kLe-Vc-B2Y">
+                                    <rect key="frame" x="135" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="4TC-2H-9th">
+                                    <rect key="frame" x="175" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-Bc-vNv">
+                                    <rect key="frame" x="194" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="骡马市       其他" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWo-ci-rdY">
+                                    <rect key="frame" x="135" y="66" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score-black" translatesAutoresizingMaskIntoConstraints="NO" id="edA-w4-Fej">
+                                    <rect key="frame" x="212" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="khC-Rx-6as">
+                                    <rect key="frame" x="154" y="43" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="高升桥川菜第4名" textAlignment="natural" lineBreakMode="clip" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2L-9K-PoF">
+                                    <rect key="frame" x="135" y="93" width="124" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="textColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="highlightedColor" red="0.75294117650000003" green="0.76078431369999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="trailing" secondItem="Zwi-6v-XNI" secondAttribute="trailing" id="1Wi-5I-Gjy"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="trailing" secondItem="WBj-aV-PZM" secondAttribute="trailing" id="2UE-d8-6xa"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="Zwi-6v-XNI" secondAttribute="leading" id="4D9-vs-bLe"/>
+                        <constraint firstItem="WBj-aV-PZM" firstAttribute="top" secondItem="gRN-uV-Qtp" secondAttribute="bottom" constant="8" id="9D6-k4-Qj6"/>
+                        <constraint firstAttribute="bottom" secondItem="2cY-8A-Rai" secondAttribute="bottom" constant="976" id="DKk-c3-eil"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="oRT-QC-yb0" secondAttribute="leading" id="Dsx-cR-58g"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="centerX" secondItem="EeN-HV-tf1" secondAttribute="centerX" id="E1k-vU-jy0"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="top" secondItem="EeN-HV-tf1" secondAttribute="top" id="EGi-tT-c80"/>
+                        <constraint firstAttribute="trailing" secondItem="2cY-8A-Rai" secondAttribute="trailing" id="Er0-uq-F6I"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="EeN-HV-tf1" secondAttribute="leading" id="FKU-BO-Rmf"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="WFv-z0-7mb" secondAttribute="leading" id="LBL-Mj-gzx"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="trailing" secondItem="oRT-QC-yb0" secondAttribute="trailing" id="PVq-th-iAv"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="gRN-uV-Qtp" secondAttribute="leading" id="SK6-fg-McR"/>
+                        <constraint firstItem="oRT-QC-yb0" firstAttribute="top" secondItem="WFv-z0-7mb" secondAttribute="bottom" constant="8" symbolic="YES" id="Wz7-ip-jzI"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="trailing" secondItem="gRN-uV-Qtp" secondAttribute="trailing" id="bkC-Sn-vo7"/>
+                        <constraint firstItem="WFv-z0-7mb" firstAttribute="top" secondItem="Zwi-6v-XNI" secondAttribute="bottom" constant="8" symbolic="YES" id="ccc-bq-F96"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="trailing" secondItem="WFv-z0-7mb" secondAttribute="trailing" id="fi7-9z-lOe"/>
+                        <constraint firstItem="Zwi-6v-XNI" firstAttribute="top" secondItem="2cY-8A-Rai" secondAttribute="bottom" constant="8" symbolic="YES" id="gfw-Wm-53O"/>
+                        <constraint firstItem="gRN-uV-Qtp" firstAttribute="top" secondItem="oRT-QC-yb0" secondAttribute="bottom" constant="8" symbolic="YES" id="iCu-Rb-GFc"/>
+                        <constraint firstItem="WBj-aV-PZM" firstAttribute="bottom" secondItem="EeN-HV-tf1" secondAttribute="bottomMargin" constant="-308" id="ikW-0L-OTa"/>
+                        <constraint firstItem="2cY-8A-Rai" firstAttribute="leading" secondItem="WBj-aV-PZM" secondAttribute="leading" id="j4f-rM-KCe"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.85677867253602569" green="0.86526162968984766" blue="0.86526162968984766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="EeN-HV-tf1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FBH-ux-l5q"/>
+                <constraint firstAttribute="bottom" secondItem="EeN-HV-tf1" secondAttribute="bottom" constant="-438" id="Pl1-cn-ZbQ"/>
+                <constraint firstAttribute="trailing" secondItem="EeN-HV-tf1" secondAttribute="trailing" id="mcX-82-Tey"/>
+                <constraint firstItem="EeN-HV-tf1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="swo-L1-SBq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="scrollView" destination="EeN-HV-tf1" id="fht-bf-Iut"/>
+            </connections>
+            <point key="canvasLocation" x="-41" y="-100"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cyyh" width="106" height="105"/>
+        <image name="drh" width="106" height="106"/>
+        <image name="jmd" width="106" height="106"/>
+        <image name="score" width="15" height="15"/>
+        <image name="score-black" width="15" height="15"/>
+        <image name="sdlj" width="106" height="106"/>
+        <image name="tgxj" width="106" height="106"/>
+        <image name="wpp@1x" width="106" height="106"/>
+        <image name="yjxc@1x" width="106" height="106"/>
+        <image name="ymt@1x" width="106" height="105"/>
+    </resources>
+</document>

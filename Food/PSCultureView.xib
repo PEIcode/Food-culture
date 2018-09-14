@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PSCultureView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="622"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lixian" translatesAutoresizingMaskIntoConstraints="NO" id="WEf-WB-rSQ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="242"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="414" id="8QX-M9-158"/>
+                        <constraint firstAttribute="height" constant="242" id="R6N-Ve-ml1"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="enW-eo-1wp">
+                    <rect key="frame" x="0.0" y="239" width="414" height="383"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pagebg" translatesAutoresizingMaskIntoConstraints="NO" id="0r5-YM-FF8">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="406"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIz-tD-fmu">
+                            <rect key="frame" x="19" y="0.0" width="376" height="211"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">       相传，唐朝年间，武则天之子李显被流放于房州（今日之房县）境内。一天，李显经过一小村庄，借宿于一农户家。农户的儿子从河里捕捞到一条大鱼，因鱼头大于普通鱼头，故女主人将鱼头取下，配上自家剁碎了的小辣椒、切成片的生姜、大根的葱同蒸。蒸了约半小时上桌，与李显一行人等同桌品尝。品尝到了如此鲜味的李显赞不绝口，便询问起此鱼头的做法。 </string>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.28333201142131981" green="0.28333201142131981" blue="0.28333201142131981" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WEf-WB-rSQ" secondAttribute="bottom" constant="380" id="IMP-VU-wQs"/>
+                <constraint firstItem="WEf-WB-rSQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="K7X-wb-Scz"/>
+                <constraint firstItem="WEf-WB-rSQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="OFR-bQ-fTa"/>
+                <constraint firstItem="WEf-WB-rSQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ujl-5q-FDQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34" y="53"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lixian" width="414" height="216"/>
+        <image name="pagebg" width="414" height="616"/>
+    </resources>
+</document>

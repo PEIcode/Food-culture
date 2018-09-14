@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PSDoView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLm-4Z-r0c">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="3338"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="duojiaoyutou" translatesAutoresizingMaskIntoConstraints="NO" id="50N-fR-bYp">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J4w-um-Loh">
+                            <rect key="frame" x="0.0" y="219" width="414" height="76"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="剁椒鱼头" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFn-U3-f0n">
+                                    <rect key="frame" x="158" y="8" width="93" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                    <color key="textColor" red="0.92470186948776245" green="0.50013113021850586" blue="0.34904703497886658" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watch" translatesAutoresizingMaskIntoConstraints="NO" id="dQy-8w-LHT">
+                                    <rect key="frame" x="16" y="41" width="25" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fire" translatesAutoresizingMaskIntoConstraints="NO" id="rw7-4u-di0">
+                                    <rect key="frame" x="221" y="41" width="25" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="烹饪时间： 30min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-rL-gCz">
+                                    <rect key="frame" x="49" y="41" width="164" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="所含能量  304.65kcal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDd-hD-LFi">
+                                    <rect key="frame" x="250" y="41" width="164" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="76" id="FOb-zQ-GS2"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="weH-LR-DXk">
+                            <rect key="frame" x="0.0" y="303" width="414" height="496"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="0k3-yk-Blg">
+                                    <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="所需食材" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-YB-gU1">
+                                    <rect key="frame" x="53" y="15" width="88" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shicai" translatesAutoresizingMaskIntoConstraints="NO" id="OLB-3F-Exq">
+                                    <rect key="frame" x="0.0" y="53" width="414" height="195"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Die-3w-enN">
+                                    <rect key="frame" x="15" y="256" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="胖头鱼头                                                1个">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-85-jrA">
+                                    <rect key="frame" x="15" y="290" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="剁辣椒                                                 20克 ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akM-Yi-9Mi">
+                                    <rect key="frame" x="15" y="324" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="盐                                                        5克">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB6-bf-SXQ">
+                                    <rect key="frame" x="15" y="358" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="植物油                                                  3克">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8L-m7-SsO">
+                                    <rect key="frame" x="15" y="392" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="红油                                                   1汤匙">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy6-7l-zFE">
+                                    <rect key="frame" x="15" y="426" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="姜                                                       10克">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geS-5U-Ini">
+                                    <rect key="frame" x="15" y="460" width="391" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="葱                                                        5克">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40303463465106854" green="0.40108760743053201" blue="0.40498166187160511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="496" id="mtN-Vq-a76"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ztc-MY-Hyx">
+                            <rect key="frame" x="0.0" y="807" width="414" height="1185"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canju" translatesAutoresizingMaskIntoConstraints="NO" id="rX7-Gv-l9w">
+                                    <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="所需食材" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feo-Jf-Wzs">
+                                    <rect key="frame" x="53" y="15" width="88" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="step1" translatesAutoresizingMaskIntoConstraints="NO" id="4L5-IL-hWB">
+                                    <rect key="frame" x="0.0" y="46" width="414" height="190"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="step2" translatesAutoresizingMaskIntoConstraints="NO" id="ydo-MC-iYU">
+                                    <rect key="frame" x="0.0" y="284" width="414" height="190"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="step3" translatesAutoresizingMaskIntoConstraints="NO" id="alP-rf-ivu">
+                                    <rect key="frame" x="0.0" y="530" width="414" height="190"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="step4" translatesAutoresizingMaskIntoConstraints="NO" id="Q6Z-BO-KVh">
+                                    <rect key="frame" x="0.0" y="776" width="414" height="190"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="鱼头洗干净，中间对半切开，放盐，胡椒粉抹匀，加料酒、姜丝腌10分钟" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9h-FC-gZ4">
+                                    <rect key="frame" x="15" y="244" width="378" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蒸碟内用葱姜蒜垫底，放上鱼头，再在鱼头上铺满剁辣椒" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xph-SN-FQE">
+                                    <rect key="frame" x="15" y="482" width="378" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蒸锅内放入适量水，大火隔水蒸10分钟，取出来倒掉蒸出的汤汁" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmq-3p-KQu">
+                                    <rect key="frame" x="18" y="728" width="378" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="炒锅放油烧热，加入姜蒜末爆香，浇在鱼头上即可" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruY-H7-4tJ">
+                                    <rect key="frame" x="8" y="1043" width="378" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="完成啦！！！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fA-sd-YWk">
+                                    <rect key="frame" x="139" y="1105" width="130" height="43"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1185" id="rcG-vI-FPL"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="weH-LR-DXk" firstAttribute="top" secondItem="50N-fR-bYp" secondAttribute="bottom" constant="83" id="DHM-9L-Us2"/>
+                        <constraint firstItem="weH-LR-DXk" firstAttribute="top" secondItem="J4w-um-Loh" secondAttribute="bottom" constant="8" symbolic="YES" id="FMC-MM-FUv"/>
+                        <constraint firstAttribute="trailing" secondItem="50N-fR-bYp" secondAttribute="trailing" id="Wg2-7C-zrc"/>
+                        <constraint firstItem="50N-fR-bYp" firstAttribute="leading" secondItem="J4w-um-Loh" secondAttribute="leading" id="XaR-97-vyT"/>
+                        <constraint firstItem="J4w-um-Loh" firstAttribute="leading" secondItem="weH-LR-DXk" secondAttribute="leading" id="a8S-tC-k2a"/>
+                        <constraint firstItem="Ztc-MY-Hyx" firstAttribute="top" secondItem="weH-LR-DXk" secondAttribute="bottom" constant="8" symbolic="YES" id="ht6-4b-7uf"/>
+                        <constraint firstItem="weH-LR-DXk" firstAttribute="trailing" secondItem="Ztc-MY-Hyx" secondAttribute="trailing" id="liE-CW-tGl"/>
+                        <constraint firstItem="50N-fR-bYp" firstAttribute="top" secondItem="OLm-4Z-r0c" secondAttribute="top" id="p3L-mH-o3B"/>
+                        <constraint firstItem="Ztc-MY-Hyx" firstAttribute="bottom" secondItem="OLm-4Z-r0c" secondAttribute="bottomMargin" id="qvK-uS-wD1"/>
+                        <constraint firstItem="weH-LR-DXk" firstAttribute="leading" secondItem="Ztc-MY-Hyx" secondAttribute="leading" id="tgK-eP-ObU"/>
+                        <constraint firstItem="J4w-um-Loh" firstAttribute="trailing" secondItem="weH-LR-DXk" secondAttribute="trailing" id="ur7-9f-My5"/>
+                        <constraint firstItem="50N-fR-bYp" firstAttribute="leading" secondItem="OLm-4Z-r0c" secondAttribute="leading" id="xMb-ON-VzI"/>
+                        <constraint firstItem="50N-fR-bYp" firstAttribute="trailing" secondItem="J4w-um-Loh" secondAttribute="trailing" id="ySp-rT-2sl"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="OLm-4Z-r0c" secondAttribute="trailing" id="MLb-9l-3zh"/>
+                <constraint firstItem="OLm-4Z-r0c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WZU-wK-lAv"/>
+                <constraint firstItem="OLm-4Z-r0c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ixs-FO-8bR"/>
+                <constraint firstAttribute="bottom" secondItem="OLm-4Z-r0c" secondAttribute="bottom" constant="-1338" id="vdv-AE-IGb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="scrollView" destination="OLm-4Z-r0c" id="PIL-43-qy1"/>
+            </connections>
+            <point key="canvasLocation" x="2" y="-226"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="canju" width="25" height="25"/>
+        <image name="duojiaoyutou" width="414" height="220"/>
+        <image name="fire" width="25" height="25"/>
+        <image name="food" width="30" height="30"/>
+        <image name="shicai" width="414" height="195"/>
+        <image name="step1" width="414" height="190"/>
+        <image name="step2" width="414" height="190"/>
+        <image name="step3" width="414" height="190"/>
+        <image name="step4" width="414" height="190"/>
+        <image name="watch" width="25" height="25"/>
+    </resources>
+</document>
